@@ -68,7 +68,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     font-size: 30px;
     color: gray;
     text-align:justify;
-    line-height: 40px;
 }
 
 .author{
@@ -95,4 +94,17 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 .btn:hover{
     background-color: rgba(0, 128, 255, 1);
+}
+
+@media (max-width: 768px){
+    .quotes{
+        height: 80%;
+    }
+    .quote{
+        max-width: 70%;
+        font-size: 20px;
+    }
+    .author{
+        font-size: 20px;
+    }
 }
